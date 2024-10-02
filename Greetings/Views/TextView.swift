@@ -10,7 +10,7 @@ import SwiftUI
 
 struct TextView: View{
     
-    let text: String
+    let text: LocalizedStringKey
     @State var color: Color
     
     let colors: [Color] = [
@@ -24,9 +24,19 @@ struct TextView: View{
         Color(red:0 ,green: 159 / 255, blue: 163 / 255)
         
     ]
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.verticalSizeClass) var verticalSizeClass
     
+    var isIPaid: Bool {
+        horizontalSizeClass == .regular && verticalSizeClass == .regular
+    }
+    
+    var font: Font {
+        isIPaid ? .largeTitle : .body
+    }
     var body: some View{
         Text(text)
+            .font(font)
             .fontWeight(.semibold)
             .padding()
             .foregroundStyle(Color.white)

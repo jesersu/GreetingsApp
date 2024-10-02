@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// with three back slash we add documentation
 struct BackgroundView: View {
     var body: some View {
         LinearGradient(colors: [.bg,

@@ -1,0 +1,78 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "building this app" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "construyendo esta app"
+          }
+        }
+      }
+    },
+    "Exploring iOS programming" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "explorando la programación en iOS"
+          }
+        }
+      }
+    },
+    "google vamos por ti" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lets go for google"
+          }
+        }
+      }
+    },
+    "Greetings" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "saludos"
+          }
+        }
+      }
+    },
+    "habla causa" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hello bro"
+          }
+        }
+      }
+    },
+    "i need a ring for my beauty women" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tengo un anillo para mi amorcita"
+          }
+        }
+      }
+    },
+    "mensaje prueba de q es posible" : {
+
+    },
+    "que chuu" : {
+
+    },
+    "saludos totales" : {
+
+    },
+    "test are important" : {
+
+    }
+  },
+  "version" : "1.0"
+}

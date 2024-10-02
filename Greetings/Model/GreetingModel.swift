@@ -8,6 +8,6 @@
 import SwiftUI
 struct GreetingModel : Identifiable{
     let id = UUID()
-    let title: String
+    let title: LocalizedStringKey
     let color: Color
 }
